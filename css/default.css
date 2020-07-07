@@ -24,8 +24,11 @@ body{
     height: 50%;
 }
 #code{
-    overflow: hidden;
+    overflow-y: scroll;
     height: 100%;
+}
+#code:hover{
+    overflow-y: auto;
 }
 .actions{
     position: absolute;
